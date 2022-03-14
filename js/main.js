@@ -5,11 +5,14 @@ const contentElem = document.querySelector('.content');
 
 contentElem.innerHTML = `
 <p>${tools.getTodaysDate()}</p>
-<div className="flashcards">
+<div class="flashcards">
 	${flashcards.map(flashcard => {
-		return `<div class="front">${flashcard.category}: ${flashcard.front}</div>
-		<div className="back">${flashcard.back}</div>	
+	return `
+	<div class="flashcard">
+		<div class="front"><span class="category">${flashcard.category.toUpperCase()}</span>: ${tools.capitalizeFirstCharacter(flashcard.front)}</div>
+		<div class="back">${flashcard.back}</div>	
+	</div>	
 		`;
-	}).join('')}
+}).join('')}
 </div>
 `;
