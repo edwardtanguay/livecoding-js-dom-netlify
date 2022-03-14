@@ -1,5 +1,8 @@
-import { test } from './tools.js';
+import { capitalizeFirstCharacter, getTodaysDate } from './tools.js';
 
 const contentElem = document.querySelector('.content');
 
-contentElem.innerHTML = test;
+contentElem.innerHTML = `
+<p>${capitalizeFirstCharacter('this is a test')}</p>
+<p>${getTodaysDate()}</p>
+`;
