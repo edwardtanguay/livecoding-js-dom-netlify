@@ -7,7 +7,9 @@ contentElem.innerHTML = `
 <p>${tools.getTodaysDate()}</p>
 <div className="flashcards">
 	${flashcards.map(flashcard => {
-		return '<div>nnn</div>';
+		return `<div class="front">${flashcard.category}: ${flashcard.front}</div>
+		<div className="back">${flashcard.back}</div>	
+		`;
 	}).join('')}
 </div>
 `;
