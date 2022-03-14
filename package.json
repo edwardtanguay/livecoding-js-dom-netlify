@@ -1,0 +1,26 @@
+{
+  "name": "livecoding-js-dom-netlify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^26.5.3"
+  },
+  "scripts": {
+    "test2": "jest",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edwardtanguay/livecoding-js-dom-netlify.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edwardtanguay/livecoding-js-dom-netlify/issues"
+  },
+  "homepage": "https://github.com/edwardtanguay/livecoding-js-dom-netlify#readme"
+}
