@@ -1,5 +1,10 @@
 export const flashcards = [
 	{
+		"category": "linux",
+		"front": "start the vi editor",
+		"back": "vi"
+	},
+	{
 		"id": 19,
 		"category": "linux",
 		"kind": "command",
